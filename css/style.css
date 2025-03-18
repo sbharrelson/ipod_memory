@@ -1,4 +1,19 @@
 body{
-background-color: cadetblue;
+    background-image: url("/img/gif_background.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size: cover;
+
+    
+   
+   
+    text-align: center;
+    text-decoration: none;
+    font-family:monospace;
+    font-weight: 300;
+    font-style: normal;
+    padding: 10px; 
+    color: rgb(210, 20, 220);
+   
 
 }

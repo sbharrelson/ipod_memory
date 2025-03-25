@@ -1,19 +1,179 @@
 body{
     background-image: url("/img/gif_background.gif");
     background-position: center;
-    background-repeat: no-repeat;
-     background-size: cover;
+    background-repeat: repeat;
+    background-size: cover;
 
-    
-   
    
     text-align: center;
     text-decoration: none;
     font-family:monospace;
     font-weight: 300;
     font-style: normal;
-    padding: 10px; 
+    padding: 0px; 
     color: rgb(197, 20, 220);
-   
-
 }
+
+
+.ipod-image {
+    width: 200px;
+    height: auto;  
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 9%;
+    transform: scale(0.9);
+}
+
+
+img {
+    padding: 0px; 
+    max-width: 350px;
+}
+
+
+  .standing {
+    position: absolute;
+    top: -1%;
+    left: 80%;
+}
+
+.boutique {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+}
+
+.oui_oui {
+    position: absolute;
+    top: 43%;
+    width: 100%;
+    height: auto;
+    right: 10%;
+    transform: scale(0.5);
+}
+
+
+.ta_da {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: auto;
+    right: 40%;
+    
+}
+
+.twins {
+    position: absolute;
+    top: 77%;
+    width: 100%;
+    height: auto;
+    right: 40%
+}
+
+.good_butterfly {
+    position: absolute;
+    top: 15%;
+    height: auto;
+    right: 18%;
+    transform: scale(0.7);
+}
+
+.blue_star {
+    position: absolute;
+    top: 60%;
+    height: auto;
+    right: -10%;
+    transform: scale(0.6);
+}
+
+
+.three_stars {
+    position: absolute;
+    top: 21%;
+    height: auto;
+    right:64%;
+    transform: scale(0.3);
+}
+
+.spiky_star {
+    position: absolute;
+    top: 81%;
+    height: auto;
+    right:18%;
+}
+
+.blue_butterfly {
+    position: absolute;
+    top: -4%;
+    height: auto;
+    right: 62%;
+    transform: scale(0.3);
+}
+
+@media screen and (max-width: 767px){
+    body {
+        background-color: aqua;
+    }
+} 
+
+
+.computer {
+    width: 300px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.applebox {
+    background-image: url("/img/gif_background.gif");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    
+
+/*
+.corine {
+    margin: 1%;
+    text-align: center;
+   
+    }
+    
+    .princess {
+        margin: 1%;
+ 
+    }
+    
+    .curtain.call {
+        margin: 1%;
+
+    }
+    
+    .tom {
+        margin: 1%;
+ 
+    }
+    
+    .madagascar {
+        margin: 1%;
+     
+    }
+    .peppers {
+        margin: 1%;
+    
+    }
+    
+    .hannah {
+        margin: 1%;
+
+    }
+    
+    .hannah_2 {
+        margin: 1%;
+  
+    }
+    

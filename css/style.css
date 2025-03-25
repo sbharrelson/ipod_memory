@@ -1,10 +1,8 @@
 body{
-    background-image: url("/img/gif_background.gif");
+    background-image: url("../img/gif_background.gif");
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
-
-   
     text-align: center;
     text-decoration: none;
     font-family:monospace;
@@ -15,13 +13,17 @@ body{
 }
 
 
-.ipod-image {
+
+
+.ipod_PNG {
     width: 200px;
-    height: auto;  
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     margin-top: 9%;
     transform: scale(0.9);
+    position:absolute;
+    z-index: 1000;
+    align-items: center;
 }
 
 
@@ -45,11 +47,11 @@ img {
 
 .oui_oui {
     position: absolute;
-    top: 43%;
+    top: 34%;
     width: 100%;
     height: auto;
     right: 10%;
-    transform: scale(0.5);
+    transform: scale(0.7);
 }
 
 

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title> Net Art Memory </title>
-        <link rel="icon" type="image/x-icon" href="/imag/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
@@ -14,44 +14,94 @@
     <body>
         <nav>
             <a href="index.html"> 
-                <img src="img/Ipod PNG.png" alt="Ipod turned off" class="ipod_PNG"> 
+                <img src="img/music_ipod.png" alt="Ipod turned off" class="music_ipod"> 
             </a>
         </nav>
 
-
-
-            <main class="applebox">
+        <main class="albums">
             <div class="corine">
-                <img src="img/albumbs/corine.jpg" alt="corines">
+                <img src="img/albumbs/corine.jpg" alt="corines" onclick="playSong('audio/corine.mp3')">
+            </div>
+            <div class="hannah_2">
+                <img src="img/albumbs/hannah.2.png" alt="hannah.2" onclick="playSong('audio/hannah.mp3')">
+            </div>
+
+            <div class="avril">
+                <img src="img/albumbs/avril.png" alt="avril" onclick="playSong('audio/hannah_2.mp3')">
             </div>
     
-            <div class="princess">
-                <img src="img/albumbs/princess.png" alt="princess image">
-            </div>
-    
-            <div class="curtain.call">
-                <img src="img/albumbs/curtain.call.png" alt="apple one">
-            </div>
-    
-            <div class="tom">
-                <img src="img/albumbs/tom.png" alt="tom">
-            </div>
-    
-            <div class="madagascar">
-                <img src="img/albumbs/madagascar.png" alt="madagascar">
+            <div class="curtain_call">
+                <img src="img/albumbs/curtain.call.png" alt="curtain call" onclick="playSong('audio/curtain_call.mp3')">
             </div>
     
             <div class="peppers">
-                <img src="img/albumbs/peppers.jpg" alt="apple one">
+                <img src="img/albumbs/peppers.jpg" alt="peppers" onclick="playSong('audio/peppers.mp3')">
             </div>
-    
-            <div class="hannah">
-                <img src="img/albumbs/hannah.png" alt="hannah">
+
+            <div class="shakira">
+                <img src="img/albumbs/shakira.png" alt="shakira" onclick="playSong('audio/hannah_2.mp3')">
             </div>
-    
-            <div class="hannah_2">
-                <img src="img/albumbs/hannah.2.png" alt="hannah.2">
+
+            <div class="outkast">
+                <img src="img/albumbs/outkast.png" alt="outkast" onclick="playSong('audio/hannah_2.mp3')">
             </div>
+
+            <div class="katy_1">
+                <img src="img/albumbs/katy_1.png" alt="avril" onclick="playSong('audio/hannah_2.mp3')">
+            </div>
+
+            <div class="madagascar">
+                <img src="img/albumbs/madagascar.png" alt="madagascar" onclick="playSong('audio/madagascar.mp3')">
+            </div>
+
+            <div class="tom">
+                <img src="img/albumbs/tom.png" alt="tom" onclick="playSong('audio/tom.mp3')">
+            </div>
+
+            <div class="beyonce">
+                <img src="img/albumbs/beyonce.png" alt="beyonce" onclick="playSong('audio/hannah_2.mp3')">
+            </div>
+
+            <div class="peppers_2">
+                <img src="img/albumbs/peppers_2.png" alt="peppers" onclick="playSong('audio/hannah_2.mp3')">
+            </div>
+
+            <div class="buena_vista">
+                <img src="img/albumbs/buena_vista.png" alt="buena_vista" onclick="playSong('audio/hannah_2.mp3')">
+            </div>
+
+            <div class="katy_2">
+                <img src="img/albumbs/katy_2.png" alt="katy_2" onclick="playSong('audio/hannah_2.mp3')">
+            </div>
+
+            <div class="gaga">
+                <img src="img/albumbs/gaga.png" alt="gaga" onclick="playSong('audio/hannah_2.mp3')">
+            </div>
+
+            <div class="princess">
+                <img src="img/albumbs/princess.png" alt="princess image" onclick="playSong('audio/princess.mp3')">
+            </div>
+
+            <div class="destiney">
+                <img src="img/albumbs/destiney.png" alt="destiney" onclick="playSong('audio/princess.mp3')">
+            </div>
+
+            <div class="alanis">
+                <img src="img/albumbs/alanis.png" alt="alanis" onclick="playSong('audio/princess.mp3')">
+            </div>
+
+
         </main>
+
+        <!-- Audio Player -->
+        <audio id="player" controls></audio>
+
+        <script>
+            function playSong(songSrc) {
+                let player = document.getElementById("player");
+                player.src = songSrc;
+                player.play();
+            }
+        </script>
     </body>
 </html>
